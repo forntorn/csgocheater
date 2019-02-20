@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main\Hooks\hooks.cc">
+      <Filter>floody software\main\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Loader\loader.cc">
+      <Filter>floody software\main\loader</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\child\child.cc">
+      <Filter>floody software\framework\child</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\form\form.cc">
+      <Filter>floody software\framework\form</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\menu\menu.cc">
+      <Filter>floody software\framework\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\config\config.cc">
+      <Filter>floody software\framework\config</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\framework.cc">
+      <Filter>floody software\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot\legit\aimbot\legit.cc">
+      <Filter>floody software\features\aimbot\legit\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot\legit\backtrack\backtrack.cc">
+      <Filter>floody software\features\aimbot\legit\backtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="features\miscellaneous\profile\profile.cc">
+      <Filter>floody software\features\miscellaneous\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="features\miscellaneous\hitmarker\hitmarker.cc">
+      <Filter>floody software\features\miscellaneous\hitmarker</Filter>
+    </ClCompile>
+    <ClCompile Include="features\miscellaneous\other\other.cc">
+      <Filter>floody software\features\miscellaneous\other</Filter>
+    </ClCompile>
+    <ClCompile Include="features\changers\inventory\inventory.cc">
+      <Filter>floody software\features\changers\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="features\changers\gloves\gloves.cc">
+      <Filter>floody software\features\changers\gloves</Filter>
+    </ClCompile>
+    <ClCompile Include="features\changers\skins\skins.cc">
+      <Filter>floody software\features\changers\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\glow\glow.cc">
+      <Filter>floody software\features\visuals\glow</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\esp\esp.cc">
+      <Filter>floody software\features\visuals\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\chams\chams.cc">
+      <Filter>floody software\features\visuals\chams</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\memory\memory.cc">
+      <Filter>floody software\sdk\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\VMatrix.cpp">
+      <Filter>floody software\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Math\math.cc">
+      <Filter>floody software\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\characterset.cpp">
+      <Filter>floody software\sdk\other</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\recvproxy.cpp">
+      <Filter>floody software\sdk\other</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\UtlBuffer.cpp">
+      <Filter>floody software\sdk\other</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\other\UtlString.cpp">
+      <Filter>floody software\sdk\other</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Utils\utils.cc">
+      <Filter>floody software\sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\checkbox\checkbox.cc">
+      <Filter>floody software\framework\controls\checkbox</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\radiobutton\radiobutton.cc">
+      <Filter>floody software\framework\controls\radiobutton</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\slider\slider.cc">
+      <Filter>floody software\framework\controls\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\combobox\combobox.cc">
+      <Filter>floody software\framework\controls\combobox</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\button\button.cc">
+      <Filter>floody software\framework\controls\button</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\keybinder\keybinder.cc">
+      <Filter>floody software\framework\controls\keybinder</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\textfield\textfield.cc">
+      <Filter>floody software\framework\controls\textfield</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\listbox\listbox.cc">
+      <Filter>floody software\framework\controls\listbox</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\colorpicker\colorpicker.cc">
+      <Filter>floody software\framework\controls\colorpicker</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\itemselector\itemselector.cc">
+      <Filter>floody software\framework\controls\itemselector</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\label\label.cc">
+      <Filter>floody software\framework\controls\label</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\groupbox\groupbox.cc">
+      <Filter>floody software\framework\controls\groupbox</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\base.cc">
+      <Filter>floody software\framework\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\vector\vector4d.cc">
+      <Filter>floody software\sdk\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\rendering\rendering.cc">
+      <Filter>floody software\framework\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\offsets\offsets.cc">
+      <Filter>floody software\sdk\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="main\console\console.cc">
+      <Filter>floody software\main\console</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\controls\multibox\multibox.cc">
+      <Filter>floody software\framework\controls\multibox</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\input\input.cc">
+      <Filter>floody software\framework\input</Filter>
+    </ClCompile>
+    <ClCompile Include="main\hooks\detour\detour.cc">
+      <Filter>floody software\main\hooks\detour</Filter>
+    </ClCompile>
+    <ClCompile Include="main\hooks\vftable\vftable.cc">
+      <Filter>floody software\main\hooks\vftable</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\dumper\dumper.cc">
+      <Filter>floody software\sdk\dumper</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\rendering\renderingdx.cc">
+      <Filter>floody software\framework\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="features\miscellaneous\steamworks\steamworks.cc">
+      <Filter>floody software\features\miscellaneous\steamapi</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\engine_gcmessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\steammessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\netmessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\gcsdk_gcmessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\cstrike15_gcmessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\base_gcmessages.pb.cc">
+      <Filter>floody software\protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\Hooks\hooks.hh">
+      <Filter>floody software\main\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Loader\loader.hh">
+      <Filter>floody software\main\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\form\form.hh">
+      <Filter>floody software\framework\form</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\menu\menu.hh">
+      <Filter>floody software\framework\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\config\config.hh">
+      <Filter>floody software\framework\config</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\child\child.hh">
+      <Filter>floody software\framework\child</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot\legit\aimbot\legit.hh">
+      <Filter>floody software\features\aimbot\legit\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot\legit\backtrack\backtrack.hh">
+      <Filter>floody software\features\aimbot\legit\backtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="features\miscellaneous\profile\profile.hh">
+      <Filter>floody software\features\miscellaneous\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="features\miscellaneous\hitmarker\hitmarker.hh">
+      <Filter>floody software\features\miscellaneous\hitmarker</Filter>
+    </ClInclude>
+    <ClInclude Include="features\miscellaneous\other\other.hh">
+      <Filter>floody software\features\miscellaneous\other</Filter>
+    </ClInclude>
+    <ClInclude Include="features\changers\inventory\inventory.hh">
+      <Filter>floody software\features\changers\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="features\changers\gloves\gloves.hh">
+      <Filter>floody software\features\changers\gloves</Filter>
+    </ClInclude>
+    <ClInclude Include="features\changers\skins\skins.hh">
+      <Filter>floody software\features\changers\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\glow\glow.hh">
+      <Filter>floody software\features\visuals\glow</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\esp\esp.hh">
+      <Filter>floody software\features\visuals\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\chams\chams.hh">
+      <Filter>floody software\features\visuals\chams</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\memory\memory.hh">
+      <Filter>floody software\sdk\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CCenterPrint.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CClientState.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CFlashLightEffect.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CGameUI.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\Classes.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ClientRecvProps.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientMode.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineTrace.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IfaceMngr.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameEvent.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ILocalize.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMemAlloc.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPhysics.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVEngineClient.h">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\VMatrix.h">
+      <Filter>floody software\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Math\math.hh">
+      <Filter>floody software\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\characterset.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\platform.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\Proxies.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\recvproxy.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\Sequences.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\Studio.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\UtlBuffer.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\UtlMemory.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\UtlString.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\UtlVector.h">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils\utils.hh">
+      <Filter>floody software\sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\entities.hh">
+      <Filter>floody software\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\singleton.hh">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\checkbox\checkbox.hh">
+      <Filter>floody software\framework\controls\checkbox</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\radiobutton\radiobutton.hh">
+      <Filter>floody software\framework\controls\radiobutton</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\slider\slider.hh">
+      <Filter>floody software\framework\controls\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\combobox\combobox.hh">
+      <Filter>floody software\framework\controls\combobox</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\button\button.hh">
+      <Filter>floody software\framework\controls\button</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\keybinder\keybinder.hh">
+      <Filter>floody software\framework\controls\keybinder</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\textfield\textfield.hh">
+      <Filter>floody software\framework\controls\textfield</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\listbox\listbox.hh">
+      <Filter>floody software\framework\controls\listbox</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\colorpicker\colorpicker.hh">
+      <Filter>floody software\framework\controls\colorpicker</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\itemselector\itemselector.hh">
+      <Filter>floody software\framework\controls\itemselector</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\label\label.hh">
+      <Filter>floody software\framework\controls\label</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\groupbox\groupbox.hh">
+      <Filter>floody software\framework\controls\groupbox</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\base.hh">
+      <Filter>floody software\framework\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\other\color.hh">
+      <Filter>floody software\sdk\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vector\vector.hh">
+      <Filter>floody software\sdk\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vector\vector2d.hh">
+      <Filter>floody software\sdk\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vector\vector4d.hh">
+      <Filter>floody software\sdk\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\rendering\rendering.hh">
+      <Filter>floody software\framework\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cbaseentity.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\offsets\offsets.hh">
+      <Filter>floody software\sdk\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cusercmd.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\cbaseweapon.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\imaterialsystem.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\imageformat.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivmodelrender.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivrenderview.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ivmodelinfoclient.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ibaseclientdll.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\iviewrender.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\iappsystem.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\icvar.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\iconvar.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\isurface.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ienginevgui.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\inetchannel.hh">
+      <Filter>floody software\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="main\console\console.hh">
+      <Filter>floody software\main\console</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\controls\multibox\multibox.hh">
+      <Filter>floody software\framework\controls\multibox</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\input\input.hh">
+      <Filter>floody software\framework\input</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\form\avatar\images.hh">
+      <Filter>floody software\framework\form\avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="main\hooks\detour\detour.hh">
+      <Filter>floody software\main\hooks\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="main\hooks\vftable\vftable.hh">
+      <Filter>floody software\main\hooks\vftable</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\dumper\dumper.hh">
+      <Filter>floody software\sdk\dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\rendering\renderingdx.hh">
+      <Filter>floody software\framework\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="features\miscellaneous\steamworks\steamworks.hh">
+      <Filter>floody software\features\miscellaneous\steamapi</Filter>
+    </ClInclude>
+    <ClInclude Include="steamworks\strtools.hh">
+      <Filter>floody software\steamworks</Filter>
+    </ClInclude>
+    <ClInclude Include="steamworks\steam_api.h">
+      <Filter>floody software\steamworks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="floody software">
+      <UniqueIdentifier>{15cd0d08-817c-431b-8e7c-5e8400e86154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main">
+      <UniqueIdentifier>{0b8089e7-d0e7-4a46-8b68-d8b10c78a2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main\hooks">
+      <UniqueIdentifier>{3d2c454e-34eb-4756-932b-6940d1fe57b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main\loader">
+      <UniqueIdentifier>{ac95f6ba-f645-4bde-abc5-76ca3e15578b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features">
+      <UniqueIdentifier>{56fa0ed8-8dbf-4c6f-a8b9-bbd1f1bf3b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\aimbot">
+      <UniqueIdentifier>{4aa07b32-5717-4708-b80d-82193c49c42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\aimbot\legit">
+      <UniqueIdentifier>{33a6dae8-3b7a-49d8-a2d9-a532ea75f2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\aimbot\legit\aimbot">
+      <UniqueIdentifier>{a95cd41b-38fb-4236-9496-9ec39fbfd1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\aimbot\legit\backtrack">
+      <UniqueIdentifier>{44f9e9e0-3cd0-45f2-84d6-667039c2a747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\visuals">
+      <UniqueIdentifier>{efaeed3e-ff92-4dc9-91ea-19e85de2c5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\visuals\chams">
+      <UniqueIdentifier>{9b194f36-debe-44da-9163-7eae040442ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\visuals\glow">
+      <UniqueIdentifier>{910f7c61-4ff3-441b-8a37-0bf2cdd86a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\visuals\esp">
+      <UniqueIdentifier>{d0bce2df-cdaf-4d30-9269-f48e5d3ea214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\miscellaneous">
+      <UniqueIdentifier>{0ac10185-c947-4a20-b7c3-39d73fb53164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\miscellaneous\hitmarker">
+      <UniqueIdentifier>{16bd5010-bc9f-46cb-899f-1236dde3ca43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\miscellaneous\other">
+      <UniqueIdentifier>{0f8f6a74-c183-4130-8281-6bdbbc284fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\miscellaneous\profile">
+      <UniqueIdentifier>{0b755159-3248-4877-85e9-cdc1081b44f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\changers">
+      <UniqueIdentifier>{aa8db64e-da80-4c22-a9dc-600a1b77ed2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\changers\skins">
+      <UniqueIdentifier>{6e1e292c-576a-4ecc-b3b9-2d6898df234d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\changers\inventory">
+      <UniqueIdentifier>{b82e9495-1a86-473c-a83b-d568b35e3b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\changers\gloves">
+      <UniqueIdentifier>{36c138da-0824-4aa0-8a4f-e8e1b136f1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk">
+      <UniqueIdentifier>{35cfa0b3-851b-4338-a846-58e38d55f47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework">
+      <UniqueIdentifier>{40fa7763-b77b-4076-b178-3cd20ec6e271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\child">
+      <UniqueIdentifier>{d8a7e63a-c2fd-40ca-8c2d-efdd68233f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\form">
+      <UniqueIdentifier>{978dba06-70c5-4076-a822-73bcb8c9f75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls">
+      <UniqueIdentifier>{63ac807f-44ce-48fc-8307-eee1e79c3347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\menu">
+      <UniqueIdentifier>{8373a5a4-24d0-4b00-a2e5-71f5b7403de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\config">
+      <UniqueIdentifier>{5ea1384f-b062-4fbc-9d84-a68a485fe983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\memory">
+      <UniqueIdentifier>{2e2d5fa1-e732-4997-840c-18d0e3cbbf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\interfaces">
+      <UniqueIdentifier>{10cd7d94-5017-492f-ad26-7d5725aafc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\math">
+      <UniqueIdentifier>{b94c6913-0d08-4a2f-a4a1-5bf76a4f76b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\other">
+      <UniqueIdentifier>{b0d19796-d02b-4ddc-9125-5483b3a34abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\utils">
+      <UniqueIdentifier>{f32075ab-eead-42b4-9509-01397e75bdb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\interfaces\steam">
+      <UniqueIdentifier>{a0119273-3c97-4334-8557-f8145b3ee50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\vector">
+      <UniqueIdentifier>{34f78610-c767-43cf-911d-403e7501dcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\checkbox">
+      <UniqueIdentifier>{cc4639b3-4804-4eed-afc3-3c31c63c7575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\radiobutton">
+      <UniqueIdentifier>{87fe0971-09dc-4de9-97d0-60f4894a7f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\slider">
+      <UniqueIdentifier>{cb8098c3-e183-495b-8c50-4e6d7a6d4987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\combobox">
+      <UniqueIdentifier>{0fdc2e72-edd8-4991-a9e0-c5929f6256bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\button">
+      <UniqueIdentifier>{5903c40f-c66a-45b1-8bb6-c6f5459d79a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\keybinder">
+      <UniqueIdentifier>{57b3c7bb-f98e-4a78-abfc-f8f6fede83e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\textfield">
+      <UniqueIdentifier>{1b2aabae-4ed7-47b2-89e3-2981b9fb3a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\listbox">
+      <UniqueIdentifier>{24f5643e-904a-4452-bd9e-2677c0843b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\colorpicker">
+      <UniqueIdentifier>{5e9adb44-866a-4727-9cac-310724ae4393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\itemselector">
+      <UniqueIdentifier>{e1483caa-86d0-494b-84db-14ee26af8fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\label">
+      <UniqueIdentifier>{b6a71c8e-e809-4a26-bf47-078f767b1a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\groupbox">
+      <UniqueIdentifier>{d6f46538-cca5-40d6-936e-f4f653e9bfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\rendering">
+      <UniqueIdentifier>{b5c6d67b-b304-40cb-8144-f60b05ec512a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\offsets">
+      <UniqueIdentifier>{18a8fe5a-525f-435c-9c41-caff07e3d76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main\console">
+      <UniqueIdentifier>{9cdfdcb0-7476-4f2e-8fe2-119d05371aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\controls\multibox">
+      <UniqueIdentifier>{42a59950-79ec-464c-a68c-8dcdeeb730e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\input">
+      <UniqueIdentifier>{de83cf83-279a-4fc0-8970-fd0189bb4592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\framework\form\avatar">
+      <UniqueIdentifier>{80842381-0399-4883-8e1b-164a1d6883fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main\hooks\detour">
+      <UniqueIdentifier>{ddab2d6a-e5a9-41dc-9770-41927fe61537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\main\hooks\vftable">
+      <UniqueIdentifier>{85dcb6fc-bbac-4aa2-b66a-f8d4c85186f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\dumper">
+      <UniqueIdentifier>{24844dcf-630f-487c-8b2c-6e08628f8435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\features\miscellaneous\steamapi">
+      <UniqueIdentifier>{f2d3f09f-ce1f-462e-a0e9-56cc3da2351e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\sdk\interfaces\steam\lib">
+      <UniqueIdentifier>{4a722acf-ad7e-495c-83ac-fc35182a9e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\steamworks">
+      <UniqueIdentifier>{d8892832-e7b6-4498-b67a-7fd033d6fedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\steamworks\lib">
+      <UniqueIdentifier>{4ed8e3b8-cb74-4c38-93f9-2cfbf097e17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\protobuf">
+      <UniqueIdentifier>{1cacf25f-c5b8-4ee7-8d48-44e47dcc05da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floody software\protobuf\lib">
+      <UniqueIdentifier>{14a3ee2b-8e32-49b2-9b53-e2a978c47bf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="protobuf\lib\libprotobuf.lib">
+      <Filter>floody software\protobuf\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D83C36A-DC6F-4260-A46B-3691C9F1F7A0}</ProjectGuid>
+    <RootNamespace>floody software</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>floody software</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>fsoftware</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <LibraryWPath>
+    </LibraryWPath>
+    <ReferencePath>
+    </ReferencePath>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>fsoftware</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Users\fldy\Documents\Visual Studio 2017\Projects\Floody Software\Floody Software\protobuf</AdditionalIncludeDirectories>
+      <Optimization>MinSpace</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:\Users\fldy\Documents\Visual Studio 2017\Projects\Floody Software\Floody Software\steamworks\lib\sdkencryptedappticket.lib;C:\Users\fldy\Documents\Visual Studio 2017\Projects\Floody Software\Floody Software\steamworks\lib\steam_api.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>F:\C++ Projects\[CSGO] Legit Internal\protobuf</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>F:\C++ Projects\[CSGO] Legit Internal\steamworks\lib\sdkencryptedappticket.lib;F:\C++ Projects\[CSGO] Legit Internal\steamworks\lib\steam_api.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="features\aimbot\legit\aimbot\legit.hh" />
+    <ClInclude Include="features\aimbot\legit\backtrack\backtrack.hh" />
+    <ClInclude Include="features\changers\gloves\gloves.hh" />
+    <ClInclude Include="features\changers\inventory\inventory.hh" />
+    <ClInclude Include="features\changers\skins\skins.hh" />
+    <ClInclude Include="features\miscellaneous\hitmarker\hitmarker.hh" />
+    <ClInclude Include="features\miscellaneous\other\other.hh" />
+    <ClInclude Include="features\miscellaneous\profile\profile.hh" />
+    <ClInclude Include="features\miscellaneous\steamworks\steamworks.hh" />
+    <ClInclude Include="features\visuals\chams\chams.hh" />
+    <ClInclude Include="features\visuals\esp\esp.hh" />
+    <ClInclude Include="features\visuals\glow\glow.hh" />
+    <ClInclude Include="framework\child\child.hh" />
+    <ClInclude Include="framework\config\config.hh" />
+    <ClInclude Include="framework\controls\button\button.hh" />
+    <ClInclude Include="framework\controls\checkbox\checkbox.hh" />
+    <ClInclude Include="framework\controls\colorpicker\colorpicker.hh" />
+    <ClInclude Include="framework\controls\combobox\combobox.hh" />
+    <ClInclude Include="framework\controls\base.hh" />
+    <ClInclude Include="framework\controls\groupbox\groupbox.hh" />
+    <ClInclude Include="framework\controls\itemselector\itemselector.hh" />
+    <ClInclude Include="framework\controls\keybinder\keybinder.hh" />
+    <ClInclude Include="framework\controls\label\label.hh" />
+    <ClInclude Include="framework\controls\listbox\listbox.hh" />
+    <ClInclude Include="framework\controls\multibox\multibox.hh" />
+    <ClInclude Include="framework\controls\radiobutton\radiobutton.hh" />
+    <ClInclude Include="framework\controls\slider\slider.hh" />
+    <ClInclude Include="framework\controls\textfield\textfield.hh" />
+    <ClInclude Include="framework\form\avatar\images.hh" />
+    <ClInclude Include="framework\input\input.hh" />
+    <ClInclude Include="framework\rendering\rendering.hh" />
+    <ClInclude Include="framework\form\form.hh" />
+    <ClInclude Include="framework\menu\menu.hh" />
+    <ClInclude Include="framework\rendering\renderingdx.hh" />
+    <ClInclude Include="main\console\console.hh" />
+    <ClInclude Include="main\hooks\detour\detour.hh" />
+    <ClInclude Include="Main\Hooks\hooks.hh" />
+    <ClInclude Include="main\hooks\vftable\vftable.hh" />
+    <ClInclude Include="Main\Loader\loader.hh" />
+    <ClInclude Include="sdk\dumper\dumper.hh" />
+    <ClInclude Include="SDK\entities.hh" />
+    <ClInclude Include="sdk\interfaces\cbaseentity.hh" />
+    <ClInclude Include="sdk\interfaces\cbaseweapon.hh" />
+    <ClInclude Include="sdk\interfaces\CCenterPrint.h" />
+    <ClInclude Include="sdk\interfaces\CClientState.h" />
+    <ClInclude Include="sdk\interfaces\CFlashLightEffect.h" />
+    <ClInclude Include="sdk\interfaces\CGameUI.h" />
+    <ClInclude Include="sdk\interfaces\Classes.h" />
+    <ClInclude Include="sdk\interfaces\ClientRecvProps.h" />
+    <ClInclude Include="sdk\interfaces\cusercmd.hh" />
+    <ClInclude Include="sdk\interfaces\iappsystem.hh" />
+    <ClInclude Include="sdk\interfaces\ibaseclientdll.hh" />
+    <ClInclude Include="sdk\interfaces\IClientMode.h" />
+    <ClInclude Include="sdk\interfaces\iconvar.hh" />
+    <ClInclude Include="sdk\interfaces\icvar.hh" />
+    <ClInclude Include="sdk\interfaces\IEngineTrace.h" />
+    <ClInclude Include="sdk\interfaces\ienginevgui.hh" />
+    <ClInclude Include="sdk\interfaces\IfaceMngr.h" />
+    <ClInclude Include="sdk\interfaces\IGameEvent.h" />
+    <ClInclude Include="sdk\interfaces\ILocalize.h" />
+    <ClInclude Include="sdk\interfaces\imageformat.hh" />
+    <ClInclude Include="sdk\interfaces\imaterialsystem.hh" />
+    <ClInclude Include="sdk\interfaces\IMemAlloc.h" />
+    <ClInclude Include="sdk\interfaces\inetchannel.hh" />
+    <ClInclude Include="sdk\interfaces\IPhysics.h" />
+    <ClInclude Include="sdk\interfaces\ivrenderview.hh" />
+    <ClInclude Include="sdk\interfaces\isurface.hh" />
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.h" />
+    <ClInclude Include="sdk\interfaces\IVEngineClient.h" />
+    <ClInclude Include="sdk\interfaces\iviewrender.hh" />
+    <ClInclude Include="sdk\interfaces\ivmodelinfoclient.hh" />
+    <ClInclude Include="sdk\interfaces\ivmodelrender.hh" />
+    <ClInclude Include="SDK\Math\math.hh" />
+    <ClInclude Include="sdk\math\VMatrix.h" />
+    <ClInclude Include="sdk\memory\memory.hh" />
+    <ClInclude Include="sdk\offsets\offsets.hh" />
+    <ClInclude Include="sdk\other\characterset.h" />
+    <ClInclude Include="sdk\other\color.hh" />
+    <ClInclude Include="sdk\other\platform.h" />
+    <ClInclude Include="sdk\other\Proxies.h" />
+    <ClInclude Include="sdk\other\recvproxy.h" />
+    <ClInclude Include="sdk\other\Sequences.h" />
+    <ClInclude Include="sdk\other\singleton.hh" />
+    <ClInclude Include="sdk\other\Studio.h" />
+    <ClInclude Include="sdk\other\UtlBuffer.h" />
+    <ClInclude Include="sdk\other\UtlMemory.h" />
+    <ClInclude Include="sdk\other\UtlString.h" />
+    <ClInclude Include="sdk\other\UtlVector.h" />
+    <ClInclude Include="SDK\Utils\utils.hh" />
+    <ClInclude Include="sdk\vector\vector.hh" />
+    <ClInclude Include="sdk\vector\vector2d.hh" />
+    <ClInclude Include="sdk\vector\vector4d.hh" />
+    <ClInclude Include="steamworks\steam_api.h" />
+    <ClInclude Include="steamworks\strtools.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="features\aimbot\legit\aimbot\legit.cc" />
+    <ClCompile Include="features\aimbot\legit\backtrack\backtrack.cc" />
+    <ClCompile Include="features\changers\gloves\gloves.cc" />
+    <ClCompile Include="features\changers\inventory\inventory.cc" />
+    <ClCompile Include="features\changers\skins\skins.cc" />
+    <ClCompile Include="features\miscellaneous\hitmarker\hitmarker.cc" />
+    <ClCompile Include="features\miscellaneous\other\other.cc" />
+    <ClCompile Include="features\miscellaneous\profile\profile.cc" />
+    <ClCompile Include="features\miscellaneous\steamworks\steamworks.cc" />
+    <ClCompile Include="features\visuals\chams\chams.cc" />
+    <ClCompile Include="features\visuals\esp\esp.cc" />
+    <ClCompile Include="features\visuals\glow\glow.cc" />
+    <ClCompile Include="framework\child\child.cc" />
+    <ClCompile Include="framework\config\config.cc" />
+    <ClCompile Include="framework\controls\button\button.cc" />
+    <ClCompile Include="framework\controls\checkbox\checkbox.cc" />
+    <ClCompile Include="framework\controls\colorpicker\colorpicker.cc" />
+    <ClCompile Include="framework\controls\combobox\combobox.cc" />
+    <ClCompile Include="framework\controls\base.cc" />
+    <ClCompile Include="framework\controls\groupbox\groupbox.cc" />
+    <ClCompile Include="framework\controls\itemselector\itemselector.cc" />
+    <ClCompile Include="framework\controls\keybinder\keybinder.cc" />
+    <ClCompile Include="framework\controls\label\label.cc" />
+    <ClCompile Include="framework\controls\listbox\listbox.cc" />
+    <ClCompile Include="framework\controls\multibox\multibox.cc" />
+    <ClCompile Include="framework\controls\radiobutton\radiobutton.cc" />
+    <ClCompile Include="framework\controls\slider\slider.cc" />
+    <ClCompile Include="framework\controls\textfield\textfield.cc" />
+    <ClCompile Include="framework\input\input.cc" />
+    <ClCompile Include="framework\rendering\rendering.cc" />
+    <ClCompile Include="framework\form\form.cc" />
+    <ClCompile Include="framework\framework.cc" />
+    <ClCompile Include="framework\menu\menu.cc" />
+    <ClCompile Include="framework\rendering\renderingdx.cc" />
+    <ClCompile Include="main\console\console.cc" />
+    <ClCompile Include="main\hooks\detour\detour.cc" />
+    <ClCompile Include="Main\Hooks\hooks.cc" />
+    <ClCompile Include="main\hooks\vftable\vftable.cc" />
+    <ClCompile Include="Main\Loader\loader.cc" />
+    <ClCompile Include="protobuf\base_gcmessages.pb.cc" />
+    <ClCompile Include="protobuf\cstrike15_gcmessages.pb.cc" />
+    <ClCompile Include="protobuf\engine_gcmessages.pb.cc" />
+    <ClCompile Include="protobuf\gcsdk_gcmessages.pb.cc" />
+    <ClCompile Include="protobuf\netmessages.pb.cc" />
+    <ClCompile Include="protobuf\steammessages.pb.cc" />
+    <ClCompile Include="sdk\dumper\dumper.cc" />
+    <ClCompile Include="SDK\Math\math.cc" />
+    <ClCompile Include="sdk\math\VMatrix.cpp" />
+    <ClCompile Include="sdk\memory\memory.cc" />
+    <ClCompile Include="sdk\offsets\offsets.cc" />
+    <ClCompile Include="sdk\other\characterset.cpp" />
+    <ClCompile Include="sdk\other\recvproxy.cpp" />
+    <ClCompile Include="sdk\other\UtlBuffer.cpp" />
+    <ClCompile Include="sdk\other\UtlString.cpp" />
+    <ClCompile Include="SDK\Utils\utils.cc" />
+    <ClCompile Include="sdk\vector\vector4d.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="protobuf\lib\libprotobuf.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
